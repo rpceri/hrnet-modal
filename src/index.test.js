@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { HrnetModal } from '.'
 
-describe('ExampleComponent', () => {
+describe('HrnetModal', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(HrnetModal).toBeTruthy()
   })
 })
