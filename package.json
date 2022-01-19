@@ -1,6 +1,6 @@
 {
-  "name": "hrnet-modal",
-  "version": "1.0.0",
+  "name": "hrnet-modal-rp",
+  "version": "1.0.5",
   "description": "modal with close button",
   "private": false,
   "author": "rpceri",

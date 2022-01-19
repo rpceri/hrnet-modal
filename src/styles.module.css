@@ -1,12 +1,17 @@
-.modalrp {
+.modalrpb{
   position: absolute;
   display: flex;
   width: auto;
   height: auto;
   margin : 0, 15px; /* no ned auto, finaly....*/
+  flex-direction: column;
+}
+
+.modalrp {
+
   min-height : 130px;
   min-width : 100px;
-  background-color: rgba(139, 161, 26, 0.97);
+  display: flex;
   border-radius: 5px;
   font-size: 0.9rem;
   font-weight: 900;
@@ -14,6 +19,7 @@
   justify-content: center; /* alignement vertical */
   align-items: center;
   flex-direction: column;
+  background-color: rgba(139, 161, 26, 0.97);
   box-shadow : 10px 10px 5px #718121;
   border: 1px dotted rgb(94, 92, 92)
 }

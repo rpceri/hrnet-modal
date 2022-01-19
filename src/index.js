@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 
 export const HrnetModal = (props) => {
   return ( 
-    <div>
+    <div className={styles.modalrpb}>
         {props.isModalVisible ? 
         <div className={styles.modalrp}>
             <p className={styles.modalrp__text}>{props.message}</p>

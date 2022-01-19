@@ -15,12 +15,12 @@ npm install --save hrnet-modal
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'hrnet-modal'
+import HrnetModal from 'hrnet-modal'
 import 'hrnet-modal/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <HrnetModal />
   }
 }
 ```
