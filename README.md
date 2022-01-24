@@ -1,8 +1,7 @@
 # hrnet-modal-rp
 
 > modal with close button
-
-it can be draggable, and you can customize it whith css
+> it can be draggable, and you can customize it whith css
 
 [![NPM](https://img.shields.io/npm/v/hrnet-modal.svg)](https://www.npmjs.com/package/hrnet-modal-rp) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -13,13 +12,14 @@ it can be draggable, and you can customize it whith css
 ## Install
 
 ```bash
-npm install --save hrnet-modal-rp or npm i hrnet-modal-rp –save
+**npm install hrnet-modal-rp** or **npm i hrnet-modal-rp** (--save option not neeeded since npm 5.0.0)
+ or **yarn add hrnet-modal-rp**
 ```
 
 ## Usage
 
 See /example/src/App.js, 
-if you use get the github repository, you  can test this component like this :
+if you  get the github repository, you  can test this component like this :
 in the main folder, open a terminal and do :
 cd example
 yarn start

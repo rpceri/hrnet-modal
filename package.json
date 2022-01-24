@@ -1,6 +1,6 @@
 {
   "name": "hrnet-modal-rp",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Draggable modal with close button",
   "keywords": [
     "popup",

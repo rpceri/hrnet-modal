@@ -15,15 +15,16 @@ import Draggable from 'react-draggable';
 * @return { HTMLElement }
 */
 /* ??? another way to condition in render ? */
+/* Draggable : must use  handle="p" to let close button work on smatphones */ 
 export const HrnetModal = (props) => {
   return ( 
     <div className={styles.modalrpFrst }>
         {props.isModalVisible && props.isDraggable === '1' &&
-          <Draggable>
+          <Draggable handle="p">
             <div className={styles.modalrpSd + ` hrnet-modal-rp-div`}  >
-            <p className={styles.modalrp__text + ` hrnet-modal-rp-text`}>{props.message}</p>
-            <button className={styles.modalrp__button + ` hrnet-modal-rp-bt-1st`} onClick={() => props.handleModalResponse()}>{props.buttonLabel}</button>
-            <button className={styles.modalrp__close + ` hrnet-modal-rp-bt-2d`}  onClick={() => props.handleModalResponse()}>X</button>
+              <p className={styles.modalrp__text + ` hrnet-modal-rp-text cursor`}>{props.message}</p>
+              <button className={styles.modalrp__button + ` hrnet-modal-rp-bt-1st`} onClick={() => props.handleModalResponse()}>{props.buttonLabel}</button>
+              <button className={styles.modalrp__close + ` hrnet-modal-rp-bt-2d`}  onClick={() => props.handleModalResponse()}>X</button>
             </div>
             </Draggable>
         }
