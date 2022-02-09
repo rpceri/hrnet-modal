@@ -3,6 +3,9 @@ import styles from './styles.module.css'
 import Draggable from 'react-draggable';
 
 /**
+* <p>
+*  Draggable : must use handle="p" to let close button work on smatphones
+* </p>
 * Return template of a modal windows
 *
 * @component isDraggable
@@ -14,8 +17,6 @@ import Draggable from 'react-draggable';
 * @param { string } props.buttonLabel label fir tje button
 * @return { HTMLElement }
 */
-/* ??? another way to condition in render ? */
-/* Draggable : must use  handle="p" to let close button work on smatphones */ 
 export const HrnetModal = (props) => {
   return ( 
     <div className={styles.modalrpFrst }>

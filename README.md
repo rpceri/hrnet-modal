@@ -12,8 +12,8 @@
 ## Install
 
 ```bash
-**npm install hrnet-modal-rp** or **npm i hrnet-modal-rp** (--save option not neeeded since npm 5.0.0)
- or **yarn add hrnet-modal-rp**
+npm install hrnet-modal-rp or npm i hrnet-modal-rp (--save option not neeeded since npm 5.0.0)
+ or yarn add hrnet-modal-rp
 ```
 
 ## Usage
@@ -85,10 +85,10 @@ class Example extends Component {
 ```
 
 As you see, you have to :
-* explain to the component when it have to be displayed with **isDraggable** props
-* explain to the component the message to  display with **message** props
-* explain to the component the label of the button with **buttonLabel** props
-* use  *useState* to order to the component when it have to be displayed with **isModalVisible** and a handle that let the component hide himself
+* specify when  the component have to be displayed with **isDraggable** props
+* specify the message to display with **message** props
+* specify  the label of the button with **buttonLabel** props
+* use  *useState*  hooks to control display's component with **isModalVisible** and a "handleModalResponse " fonction  that allow the component hide himself
 
 
 ## License
